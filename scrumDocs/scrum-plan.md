@@ -1,6 +1,6 @@
 # Plan de Requerimientos — prueba
 
-_Generado automáticamente el 2026-09-15T19:43:19.458Z — no editar a mano, se sobreescribe en cada publicación._
+_Generado automáticamente el 2026-09-15T19:43:34.642Z — no editar a mano, se sobreescribe en cada publicación._
 
 Orden sugerido de desarrollo (respeta dependencias entre Requerimientos). Cada fila indica de qué Requerimientos depende, si tiene.
 
@@ -12,6 +12,7 @@ Orden sugerido de desarrollo (respeta dependencias entre Requerimientos). Cada f
 | 4 | RNF-01 | Diseño UI responsive y estilos de la clasificación | HU-02 | — | — | Hacer | Sin asignar | — | — |
 | 5 | RF-01 | Listado de fixture y filtrado de resultados por equipo | HU-03 | — | — | Hacer | Sin asignar | — | — |
 | 6 | RF-01 | Detalle de partido con cronología de goles y sustituciones | HU-04 | — | — | Hacer | Sin asignar | — | — |
+| 7 | RF-01 | Sección de estadísticas de máximos goleadores y asistidores | HU-05 | — | — | Hacer | Sin asignar | — | — |
 
 ## Detalle
 
@@ -31,4 +32,7 @@ Orden sugerido de desarrollo (respeta dependencias entre Requerimientos). Cada f
 - Estimado: 0h
 
 ### RF-01 — Detalle de partido con cronología de goles y sustituciones
+- Estimado: 0h
+
+### RF-01 — Sección de estadísticas de máximos goleadores y asistidores
 - Estimado: 0h
