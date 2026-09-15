@@ -1,6 +1,6 @@
 # Historias de Usuario -- prueba
 
-_Generado automaticamente el 2026-09-15T19:33:55.435Z -- no editar a mano, se sobreescribe en cada publicacion._
+_Generado automaticamente el 2026-09-15T19:34:11.697Z -- no editar a mano, se sobreescribe en cada publicacion._
 
 ## HU-01: Generación y simulación de datos de liga (10 equipos y jugadores)
 
@@ -43,3 +43,13 @@ Como aficionado al fútbol, quiero ingresar al detalle de un partido específico
 - Al hacer clic o seleccionar un partido, se accede a una vista o modal de detalle.
 - Despliega la lista de goles anotados indicando jugador y minuto de juego.
 - Despliega la lista de sustituciones/cambios indicando jugador saliente, jugador entrante y minuto.
+
+## HU-05: Ranking de estadísticas de máximos goleadores y asistidores
+
+Como aficionado al fútbol, quiero contar con un apartado de estadísticas de jugadores, para consultar quiénes son los máximos goleadores y los mejores asistidores de la liga.
+
+### Criterios de Aceptacion
+
+- Sección dedicada a estadísticas individuales del torneo.
+- Tabla/ranking de máximos goleadores ordenados de mayor a menor cantidad de goles.
+- Tabla/ranking de máximos asistidores ordenados de mayor a menor cantidad de asistencias.
