@@ -1,6 +1,6 @@
 # Requerimientos -- prueba
 
-_Generado automaticamente el 2026-09-15T19:43:22.478Z -- no editar a mano, se sobreescribe en cada publicacion._
+_Generado automaticamente el 2026-09-15T19:43:37.466Z -- no editar a mano, se sobreescribe en cada publicacion._
 
 ## HU-01: Generación y simulación de datos de liga (10 equipos y jugadores)
 
@@ -33,3 +33,9 @@ Pantalla de partidos disputados con posibilidad de filtrar por club.
 ### RF-01: Detalle de partido con cronología de goles y sustituciones (Funcional)
 
 Vista modal con minutos, goleadores y cambios de jugadores.
+
+## HU-05: Ranking de estadísticas de máximos goleadores y asistidores
+
+### RF-01: Sección de estadísticas de máximos goleadores y asistidores (Funcional)
+
+Tablas ordenadas descendentemente con líderes de goleo y pases gol.
