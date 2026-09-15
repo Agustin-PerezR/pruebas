@@ -1,6 +1,6 @@
 # Historias de Usuario -- prueba
 
-_Generado automaticamente el 2026-09-15T19:42:04.880Z -- no editar a mano, se sobreescribe en cada publicacion._
+_Generado automaticamente el 2026-09-15T19:42:20.846Z -- no editar a mano, se sobreescribe en cada publicacion._
 
 ## HU-01: Generación y simulación de datos de liga (10 equipos y jugadores)
 
