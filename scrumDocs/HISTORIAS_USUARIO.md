@@ -1,6 +1,6 @@
 # Historias de Usuario -- prueba
 
-_Generado automaticamente el 2026-09-15T19:33:39.790Z -- no editar a mano, se sobreescribe en cada publicacion._
+_Generado automaticamente el 2026-09-15T19:33:55.435Z -- no editar a mano, se sobreescribe en cada publicacion._
 
 ## HU-01: Generación y simulación de datos de liga (10 equipos y jugadores)
 
@@ -33,3 +33,13 @@ Como aficionado al fútbol, quiero ver el listado de resultados de los partidos 
 
 - Presenta el listado o fixture de partidos disputados con sus respectivos resultados y marcadores finales.
 - Permite consultar los resultados de cada equipo a lo largo del torneo.
+
+## HU-04: Detalle de partido con eventos de goles y sustituciones
+
+Como aficionado al fútbol, quiero ingresar al detalle de un partido específico, para conocer las incidencias clave ocurridas durante el encuentro como autores de goles y cambios realizados.
+
+### Criterios de Aceptacion
+
+- Al hacer clic o seleccionar un partido, se accede a una vista o modal de detalle.
+- Despliega la lista de goles anotados indicando jugador y minuto de juego.
+- Despliega la lista de sustituciones/cambios indicando jugador saliente, jugador entrante y minuto.
