@@ -1,6 +1,6 @@
 # Grafo de Dependencias -- prueba
 
-_Generado automaticamente el 2026-09-15T19:45:55.980Z -- no editar a mano, se sobreescribe en cada publicacion._
+_Generado automaticamente el 2026-09-15T19:46:18.631Z -- no editar a mano, se sobreescribe en cada publicacion._
 
 ```mermaid
 graph TD
@@ -21,4 +21,5 @@ graph TD
   subgraph US_1789500850317["HU-05: Ranking de estadísticas de máximos goleadores y asistidores"]
     REQ_1789501414613["RF-01: Sección de estadísticas de máximos goleadores y asistidores"]
   end
+  REQ_1789501307396 --> REQ_1789501323521
 ```
