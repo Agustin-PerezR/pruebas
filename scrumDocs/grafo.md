@@ -1,6 +1,6 @@
 # Grafo de Dependencias -- prueba
 
-_Generado automaticamente el 2026-09-15T19:47:55.510Z -- no editar a mano, se sobreescribe en cada publicacion._
+_Generado automaticamente el 2026-09-15T19:51:32.975Z -- no editar a mano, se sobreescribe en cada publicacion._
 
 ```mermaid
 graph TD
@@ -20,6 +20,9 @@ graph TD
   end
   subgraph US_1789500850317["HU-05: Ranking de estadísticas de máximos goleadores y asistidores"]
     REQ_1789501414613["RF-01: Sección de estadísticas de máximos goleadores y asistidores"]
+  end
+  subgraph US_1789501889436["RO-01: Dockerizar la aplicación (Dockerfile y docker-compose)"]
+    REQ_1789501889447["RF-01: Dockerizar la aplicación (Dockerfile y docker-compose)"]
   end
   REQ_1789501307396 --> REQ_1789501323521
   REQ_1789501323521 --> REQ_1789501339015
