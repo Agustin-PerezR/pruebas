@@ -1,6 +1,6 @@
 # Grafo de Dependencias -- prueba
 
-_Generado automaticamente el 2026-09-15T19:42:37.939Z -- no editar a mano, se sobreescribe en cada publicacion._
+_Generado automaticamente el 2026-09-15T19:43:10.170Z -- no editar a mano, se sobreescribe en cada publicacion._
 
 ```mermaid
 graph TD
@@ -11,5 +11,8 @@ graph TD
   subgraph US_1789500801469["HU-02: Visualización de tabla de posiciones con diferenciación por colores"]
     REQ_1789501339015["RF-01: Cálculo y vista de tabla de posiciones con semáforo de colores"]
     REQ_1789501354292["RNF-01: Diseño UI responsive y estilos de la clasificación"]
+  end
+  subgraph US_1789500818362["HU-03: Consulta de resultados y partidos de la temporada"]
+    REQ_1789501384835["RF-01: Listado de fixture y filtrado de resultados por equipo"]
   end
 ```
