@@ -1,6 +1,6 @@
 # Requerimientos -- prueba
 
-_Generado automaticamente el 2026-09-15T19:43:08.385Z -- no editar a mano, se sobreescribe en cada publicacion._
+_Generado automaticamente el 2026-09-15T19:43:22.478Z -- no editar a mano, se sobreescribe en cada publicacion._
 
 ## HU-01: Generación y simulación de datos de liga (10 equipos y jugadores)
 
@@ -27,3 +27,9 @@ Adaptabilidad a dispositivos móviles y coherencia estética según style.md.
 ### RF-01: Listado de fixture y filtrado de resultados por equipo (Funcional)
 
 Pantalla de partidos disputados con posibilidad de filtrar por club.
+
+## HU-04: Detalle de partido con eventos de goles y sustituciones
+
+### RF-01: Detalle de partido con cronología de goles y sustituciones (Funcional)
+
+Vista modal con minutos, goleadores y cambios de jugadores.
