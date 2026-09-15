@@ -1,6 +1,6 @@
 # Requerimientos -- prueba
 
-_Generado automaticamente el 2026-09-15T19:42:21.903Z -- no editar a mano, se sobreescribe en cada publicacion._
+_Generado automaticamente el 2026-09-15T19:42:36.869Z -- no editar a mano, se sobreescribe en cada publicacion._
 
 ## HU-01: Generación y simulación de datos de liga (10 equipos y jugadores)
 
@@ -17,3 +17,7 @@ Generación de partidos de liga entre los 10 equipos con simulación de marcador
 ### RF-01: Cálculo y vista de tabla de posiciones con semáforo de colores (Funcional)
 
 Cálculo de PJ, PG, PE, PP, GF, GC, DG y Puntos, aplicando verde (1º), naranja (copas) y rojo (descenso).
+
+### RNF-01: Diseño UI responsive y estilos de la clasificación (No funcional)
+
+Adaptabilidad a dispositivos móviles y coherencia estética según style.md.
