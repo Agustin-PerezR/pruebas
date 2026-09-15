@@ -1,12 +1,12 @@
 # Plan de Requerimientos — prueba
 
-_Generado automáticamente el 2026-09-15T19:43:34.642Z — no editar a mano, se sobreescribe en cada publicación._
+_Generado automáticamente el 2026-09-15T19:45:52.334Z — no editar a mano, se sobreescribe en cada publicación._
 
 Orden sugerido de desarrollo (respeta dependencias entre Requerimientos). Cada fila indica de qué Requerimientos depende, si tiene.
 
 | Orden | Código | Requerimiento | Historia de Usuario | Módulo | Entrega | Estado | Desarrollador | Depende de | Rechazos |
 |---|---|---|---|---|---|---|---|---|---|
-| 1 | RF-01 | Motor de generación de 10 equipos y jugadores | HU-01 | — | — | Hacer | Sin asignar | — | — |
+| 1 | RF-01 | Motor de generación de 10 equipos y jugadores | HU-01 | — | — | Hacer | dev-prueba | — | — |
 | 2 | RF-02 | Simulador de fixture y resultados de la temporada | HU-01 | — | — | Hacer | Sin asignar | — | — |
 | 3 | RF-01 | Cálculo y vista de tabla de posiciones con semáforo de colores | HU-02 | — | — | Hacer | Sin asignar | — | — |
 | 4 | RNF-01 | Diseño UI responsive y estilos de la clasificación | HU-02 | — | — | Hacer | Sin asignar | — | — |
@@ -17,7 +17,7 @@ Orden sugerido de desarrollo (respeta dependencias entre Requerimientos). Cada f
 ## Detalle
 
 ### RF-01 — Motor de generación de 10 equipos y jugadores
-- Estimado: 0h
+- Estimado: 2h
 
 ### RF-02 — Simulador de fixture y resultados de la temporada
 - Estimado: 0h
