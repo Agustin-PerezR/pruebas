@@ -1,6 +1,6 @@
 # Grafo de Dependencias -- prueba
 
-_Generado automaticamente el 2026-09-15T19:51:32.975Z -- no editar a mano, se sobreescribe en cada publicacion._
+_Generado automaticamente el 2026-09-15T19:52:14.179Z -- no editar a mano, se sobreescribe en cada publicacion._
 
 ```mermaid
 graph TD
@@ -30,4 +30,5 @@ graph TD
   REQ_1789501323521 --> REQ_1789501384835
   REQ_1789501384835 --> REQ_1789501399433
   REQ_1789501323521 --> REQ_1789501414613
+  REQ_1789501307396 --> REQ_1789501889447
 ```
