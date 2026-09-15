@@ -1,6 +1,6 @@
 # Requerimientos -- prueba
 
-_Generado automaticamente el 2026-09-15T19:47:54.442Z -- no editar a mano, se sobreescribe en cada publicacion._
+_Generado automaticamente el 2026-09-15T19:51:31.959Z -- no editar a mano, se sobreescribe en cada publicacion._
 
 ## HU-01: Generación y simulación de datos de liga (10 equipos y jugadores)
 
@@ -39,3 +39,9 @@ Vista modal con minutos, goleadores y cambios de jugadores.
 ### RF-01: Sección de estadísticas de máximos goleadores y asistidores (Funcional)
 
 Tablas ordenadas descendentemente con líderes de goleo y pases gol.
+
+## RO-01: Dockerizar la aplicación (Dockerfile y docker-compose)
+
+### RF-01: Dockerizar la aplicación (Dockerfile y docker-compose) (Funcional)
+
+Creación de Dockerfile y docker-compose.yml para empaquetar la aplicación web de fútbol y permitir su ejecución estandarizada, configurando el mapeo de puertos en 8086:8000.
