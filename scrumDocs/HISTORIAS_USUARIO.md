@@ -1,6 +1,6 @@
 # Historias de Usuario -- prueba
 
-_Generado automaticamente el 2026-09-15T19:33:23.096Z -- no editar a mano, se sobreescribe en cada publicacion._
+_Generado automaticamente el 2026-09-15T19:33:39.790Z -- no editar a mano, se sobreescribe en cada publicacion._
 
 ## HU-01: Generación y simulación de datos de liga (10 equipos y jugadores)
 
@@ -24,3 +24,12 @@ Como aficionado al fútbol, quiero ver la tabla de posiciones organizada de los 
 - Resalta en color naranja a los equipos que clasifican a copas internacionales.
 - Resalta en color rojo a los equipos que pierden la categoría (descenso).
 - Diseño intuitivo y responsive para diferentes resoluciones y dispositivos.
+
+## HU-03: Consulta de resultados y partidos de la temporada
+
+Como aficionado al fútbol, quiero ver el listado de resultados de los partidos disputados a lo largo de la temporada, para seguir el rendimiento de los equipos.
+
+### Criterios de Aceptacion
+
+- Presenta el listado o fixture de partidos disputados con sus respectivos resultados y marcadores finales.
+- Permite consultar los resultados de cada equipo a lo largo del torneo.
