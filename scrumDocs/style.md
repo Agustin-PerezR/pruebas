@@ -1,0 +1,1 @@
+El diseño es intuitivo y responsive, adaptándose a diferentes dispositivos. Actualmente, la funcionalidad principal se enfoca en la tabla de clasificación, aunque está diseñada con la intención de expandirse en el futuro con características adicionales como resultados de partidos, próximos encuentros, estadísticas de jugadores y detalles de jornadas específicas.
