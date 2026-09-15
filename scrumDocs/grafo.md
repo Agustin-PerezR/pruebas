@@ -1,6 +1,6 @@
 # Grafo de Dependencias -- prueba
 
-_Generado automaticamente el 2026-09-15T19:42:23.387Z -- no editar a mano, se sobreescribe en cada publicacion._
+_Generado automaticamente el 2026-09-15T19:42:37.939Z -- no editar a mano, se sobreescribe en cada publicacion._
 
 ```mermaid
 graph TD
@@ -10,5 +10,6 @@ graph TD
   end
   subgraph US_1789500801469["HU-02: Visualización de tabla de posiciones con diferenciación por colores"]
     REQ_1789501339015["RF-01: Cálculo y vista de tabla de posiciones con semáforo de colores"]
+    REQ_1789501354292["RNF-01: Diseño UI responsive y estilos de la clasificación"]
   end
 ```
