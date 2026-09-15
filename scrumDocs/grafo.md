@@ -1,6 +1,6 @@
 # Grafo de Dependencias -- prueba
 
-_Generado automaticamente el 2026-09-15T19:43:10.170Z -- no editar a mano, se sobreescribe en cada publicacion._
+_Generado automaticamente el 2026-09-15T19:43:23.560Z -- no editar a mano, se sobreescribe en cada publicacion._
 
 ```mermaid
 graph TD
@@ -14,5 +14,8 @@ graph TD
   end
   subgraph US_1789500818362["HU-03: Consulta de resultados y partidos de la temporada"]
     REQ_1789501384835["RF-01: Listado de fixture y filtrado de resultados por equipo"]
+  end
+  subgraph US_1789500834077["HU-04: Detalle de partido con eventos de goles y sustituciones"]
+    REQ_1789501399433["RF-01: Detalle de partido con cronología de goles y sustituciones"]
   end
 ```
