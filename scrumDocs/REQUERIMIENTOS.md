@@ -1,6 +1,6 @@
 # Requerimientos -- prueba
 
-_Generado automaticamente el 2026-09-16T11:59:23.534Z -- no editar a mano, se sobreescribe en cada publicacion._
+_Generado automaticamente el 2026-09-16T12:04:32.222Z -- no editar a mano, se sobreescribe en cada publicacion._
 
 ## HU-01: Generación y simulación de datos de liga (10 equipos y jugadores)
 
