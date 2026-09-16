@@ -1,12 +1,12 @@
 # Plan de Requerimientos — prueba
 
-_Generado automáticamente el 2026-09-16T12:28:28.883Z — no editar a mano, se sobreescribe en cada publicación._
+_Generado automáticamente el 2026-09-16T12:41:49.927Z — no editar a mano, se sobreescribe en cada publicación._
 
 Orden sugerido de desarrollo (respeta dependencias entre Requerimientos). Cada fila indica de qué Requerimientos depende, si tiene.
 
 | Orden | Código | Requerimiento | Historia de Usuario | Módulo | Entrega | Estado | Desarrollador | Depende de | Rechazos |
 |---|---|---|---|---|---|---|---|---|---|
-| 1 | RF-01 | Motor de generación de 10 equipos y jugadores | HU-01 | — | — | Hecho | dev-prueba | — | — |
+| 1 | RF-01 | Motor de generación de 10 equipos y jugadores | HU-01 | — | — | Hecho ✓ dev | dev-prueba | — | — |
 | 2 | RF-02 | Simulador de fixture y resultados de la temporada | HU-01 | — | — | Hecho | dev-prueba | RF-01 | — |
 | 3 | RF-01 | Dockerizar la aplicación (Dockerfile y docker-compose) | RO-01 | — | — | Hecho | dev-prueba | RF-01 | — |
 | 4 | RF-01 | Cálculo y vista de tabla de posiciones con semáforo de colores | HU-02 | — | — | Hecho | dev-prueba | RF-02 | — |
