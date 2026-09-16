@@ -1,6 +1,6 @@
 # Grafo de Dependencias -- prueba
 
-_Generado automaticamente el 2026-09-16T12:45:04.546Z -- no editar a mano, se sobreescribe en cada publicacion._
+_Generado automaticamente el 2026-09-16T12:58:21.157Z -- no editar a mano, se sobreescribe en cada publicacion._
 
 ```mermaid
 graph TD
