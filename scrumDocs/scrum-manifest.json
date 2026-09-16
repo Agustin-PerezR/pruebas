@@ -1,7 +1,7 @@
 {
   "apiUrl": "http://10.24.192.28:3000",
   "projectId": "PROJ-1789499229412",
-  "lastSyncAt": "2026-09-16T12:12:00.000Z",
+  "lastSyncAt": "2026-09-16T12:15:00.000Z",
   "mappings": [
     {
       "requirementId": "REQ-1789501307396",
@@ -29,6 +29,13 @@
       "sourceRef": "css/styles.css#responsive-design",
       "testIds": [
         "TEST-1789560697478"
+      ]
+    },
+    {
+      "requirementId": "REQ-1789501384835",
+      "sourceRef": "js/fixture-view.js#filtrarPartidosPorEquipo",
+      "testIds": [
+        "TEST-1789560920364"
       ]
     }
   ]
