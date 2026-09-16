@@ -1,6 +1,11 @@
 {
   "permissions": {
     "allow": [
+      "Read(**)",
+      "Glob(**)",
+      "Grep(**)",
+      "WebSearch",
+      "WebFetch",
       "Bash(git status:*)",
       "Bash(git diff:*)",
       "Bash(git log:*)",
@@ -13,6 +18,13 @@
       "Bash(git push:*)",
       "Bash(git config user.name)",
       "Bash(git config user.email)",
+      "Bash(npm list:*)",
+      "Bash(python --version:*)",
+      "Bash(node --version:*)",
+      "Bash(node tests/*)",
+      "Bash(dir:*)",
+      "Bash(ls:*)",
+      "Bash(Get-ChildItem:*)",
       "Bash(curl:*)",
       "Bash(cat > /tmp/cuerpo.json:*)",
       "Read(scrumDocs/**)",
@@ -21,21 +33,34 @@
       "Read(//tmp/cuerpo.json)",
       "Write(//tmp/cuerpo.json)"
     ],
-    "deny": [
-      "Read(.env)",
-      "Read(.env.*)",
-      "Read(**/.env)",
-      "Read(**/.env.*)",
+    "ask": [
+      "Bash(sudo:*)",
+      "Bash(su:*)",
+      "Bash(runas:*)",
+      "Bash(rm:*)",
+      "Bash(rmdir:*)",
+      "Bash(del:*)",
+      "Bash(Remove-Item:*)",
+      "Read(.env*)",
+      "Read(**/.env*)",
+      "Write(.env*)",
+      "Write(**/.env*)",
+      "Edit(.env*)",
+      "Edit(**/.env*)",
       "Read(**/*.pem)",
       "Read(**/*.key)",
       "Read(**/id_rsa*)",
-      "Edit(.claude/settings.json)",
-      "Write(.claude/settings.json)",
+      "Bash(export:*)",
+      "Bash(set:*)",
+      "Bash(*SetEnvironmentVariable*)",
+      "Bash(C:\\Windows\\*:*)",
+      "Bash(C:\\Program Files\\*:*)"
+    ],
+    "deny": [
       "Bash(git push --force:*)",
       "Bash(git push -f:*)",
       "Bash(git push --delete:*)",
-      "Bash(git reset --hard:*)",
-      "Bash(rm -rf:*)"
+      "Bash(git reset --hard:*)"
     ]
   },
   "env": {
