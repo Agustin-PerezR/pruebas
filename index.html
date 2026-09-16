@@ -18,7 +18,7 @@
       </div>
       <nav class="nav-tabs" aria-label="Navegación de Liga">
         <button class="tab-btn active" id="tab-posiciones">Tabla de Posiciones</button>
-        <button class="tab-btn" id="tab-fixture" disabled title="Próxima entrega">Fixture y Resultados</button>
+        <button class="tab-btn" id="tab-fixture">Fixture y Resultados</button>
         <button class="tab-btn" id="tab-stats" disabled title="Próxima entrega">Goleadores / Asistencias</button>
       </nav>
     </div>
@@ -27,7 +27,7 @@
   <main>
     <section class="actions-bar">
       <div>
-        <h2 style="font-size: 1.25rem; font-weight: 700;">Clasificación General</h2>
+        <h2 style="font-size: 1.25rem; font-weight: 700;" id="seccion-titulo">Clasificación General</h2>
         <p class="season-info" id="info-partidos">18 jornadas disputadas • 90 partidos jugados</p>
       </div>
       <button class="btn-primary" id="btn-nueva-temporada">
@@ -36,8 +36,13 @@
     </section>
 
     <!-- Contenedor dinámico de la tabla de posiciones -->
-    <section id="tabla-wrapper" aria-label="Tabla de Posiciones de la Liga">
+    <section id="tabla-wrapper" class="vista-seccion" aria-label="Tabla de Posiciones de la Liga">
       <!-- Inyectado dinámicamente por js/app.js -->
+    </section>
+
+    <!-- Contenedor dinámico del fixture y resultados -->
+    <section id="fixture-wrapper" class="vista-seccion hidden" aria-label="Fixture y Resultados de Partidos">
+      <!-- Inyectado dinámicamente por js/fixture-view.js -->
     </section>
   </main>
 
@@ -49,6 +54,7 @@
   <script src="js/data.js"></script>
   <script src="js/simulator.js"></script>
   <script src="js/standings.js"></script>
+  <script src="js/fixture-view.js"></script>
   <script src="js/app.js"></script>
 </body>
 </html>
