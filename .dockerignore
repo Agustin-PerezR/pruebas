@@ -1,0 +1,6 @@
+.git
+.gitignore
+scrumDocs/
+tests/
+node_modules/
+*.md
