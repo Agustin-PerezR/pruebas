@@ -1,6 +1,6 @@
 # Plan de Requerimientos — prueba
 
-_Generado automáticamente el 2026-09-16T12:16:46.343Z — no editar a mano, se sobreescribe en cada publicación._
+_Generado automáticamente el 2026-09-16T12:19:20.731Z — no editar a mano, se sobreescribe en cada publicación._
 
 Orden sugerido de desarrollo (respeta dependencias entre Requerimientos). Cada fila indica de qué Requerimientos depende, si tiene.
 
@@ -13,7 +13,7 @@ Orden sugerido de desarrollo (respeta dependencias entre Requerimientos). Cada f
 | 5 | RF-01 | Listado de fixture y filtrado de resultados por equipo | HU-03 | — | — | Hecho | dev-prueba | RF-02 | — |
 | 6 | RF-01 | Sección de estadísticas de máximos goleadores y asistidores | HU-05 | — | — | Hacer | dev-prueba | RF-02 | — |
 | 7 | RNF-01 | Diseño UI responsive y estilos de la clasificación | HU-02 | — | — | Hecho | dev-prueba | RF-01 | — |
-| 8 | RF-01 | Detalle de partido con cronología de goles y sustituciones | HU-04 | — | — | Haciendo | dev-prueba | RF-01 | — |
+| 8 | RF-01 | Detalle de partido con cronología de goles y sustituciones | HU-04 | — | — | Hecho | dev-prueba | RF-01 | — |
 
 ## Detalle
 
@@ -44,5 +44,5 @@ Diseño responsive con media queries para móviles y coherencia estética según
 - Estimado: 2h
 
 ### RF-01 — Detalle de partido con cronología de goles y sustituciones
-Inicio de desarrollo del requerimiento: Detalle de partido con cronología de goles y sustituciones
+Detalle modal de partido con cronología de goles, asistencias y sustituciones implementado y verificado con suite de tests. PR #6 abierto contra dev.
 - Estimado: 3h
