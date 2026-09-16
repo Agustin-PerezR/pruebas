@@ -51,6 +51,13 @@
       "testIds": [
         "TEST-1789561415704"
       ]
+    },
+    {
+      "requirementId": "REQ-1789501889447",
+      "sourceRef": "Dockerfile#docker-compose",
+      "testIds": [
+        "TEST-1789561623103"
+      ]
     }
   ]
 }
