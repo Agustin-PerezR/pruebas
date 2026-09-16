@@ -44,6 +44,13 @@
       "testIds": [
         "TEST-1789561110235"
       ]
+    },
+    {
+      "requirementId": "REQ-1789501414613",
+      "sourceRef": "js/stats.js#obtenerMaximosGoleadores",
+      "testIds": [
+        "TEST-1789561415704"
+      ]
     }
   ]
 }

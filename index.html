@@ -19,7 +19,7 @@
       <nav class="nav-tabs" aria-label="Navegación de Liga">
         <button class="tab-btn active" id="tab-posiciones">Tabla de Posiciones</button>
         <button class="tab-btn" id="tab-fixture">Fixture y Resultados</button>
-        <button class="tab-btn" id="tab-stats" disabled title="Próxima entrega">Goleadores / Asistencias</button>
+        <button class="tab-btn" id="tab-stats">Goleadores / Asistencias</button>
       </nav>
     </div>
   </header>
@@ -45,6 +45,11 @@
       <!-- Inyectado dinámicamente por js/fixture-view.js -->
     </section>
 
+    <!-- Contenedor dinámico de estadísticas de jugadores -->
+    <section id="stats-wrapper" class="vista-seccion hidden" aria-label="Estadísticas de Goleadores y Asistencias">
+      <!-- Inyectado dinámicamente por js/stats.js -->
+    </section>
+
     <!-- Contenedor del Modal de Detalle de Partido -->
     <div id="modal-container"></div>
   </main>
@@ -59,6 +64,7 @@
   <script src="js/standings.js"></script>
   <script src="js/fixture-view.js"></script>
   <script src="js/match-modal.js"></script>
+  <script src="js/stats.js"></script>
   <script src="js/app.js"></script>
 </body>
 </html>

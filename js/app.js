@@ -5,14 +5,16 @@
 document.addEventListener("DOMContentLoaded", () => {
   const tablaWrapper = document.getElementById("tabla-wrapper");
   const fixtureWrapper = document.getElementById("fixture-wrapper");
+  const statsWrapper = document.getElementById("stats-wrapper");
   const btnNuevaTemporada = document.getElementById("btn-nueva-temporada");
   const infoPartidos = document.getElementById("info-partidos");
   const seccionTitulo = document.getElementById("seccion-titulo");
 
   const tabPosiciones = document.getElementById("tab-posiciones");
   const tabFixture = document.getElementById("tab-fixture");
+  const tabStats = document.getElementById("tab-stats");
 
-  let vistaActiva = "posiciones"; // 'posiciones' | 'fixture'
+  let vistaActiva = "posiciones"; // 'posiciones' | 'fixture' | 'stats'
   let filtroEquipoActual = "todos";
   let filtroJornadaActual = "todas";
 
@@ -38,6 +40,13 @@ document.addEventListener("DOMContentLoaded", () => {
         filtroJornadaActual
       );
       vincularEventosFixture();
+    }
+
+    // 3. Renderizar estadísticas individuales
+    if (statsWrapper && typeof obtenerMaximosGoleadores === "function") {
+      const topGoleadores = obtenerMaximosGoleadores(estadoLiga.equipos, 10);
+      const topAsistidores = obtenerMaximosAsistidores(estadoLiga.equipos, 10);
+      statsWrapper.innerHTML = renderEstadisticasHTML(topGoleadores, topAsistidores);
     }
 
     if (infoPartidos) {
@@ -120,25 +129,33 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // Navegación por Pestañas
-  if (tabPosiciones && tabFixture) {
-    tabPosiciones.addEventListener("click", () => {
-      vistaActiva = "posiciones";
-      tabPosiciones.classList.add("active");
-      tabFixture.classList.remove("active");
-      tablaWrapper.classList.remove("hidden");
-      fixtureWrapper.classList.add("hidden");
-      if (seccionTitulo) seccionTitulo.innerText = "Clasificación General";
+  function seleccionarPestaña(vista) {
+    vistaActiva = vista;
+    [tabPosiciones, tabFixture, tabStats].forEach(t => {
+      if (t) t.classList.remove("active");
+    });
+    [tablaWrapper, fixtureWrapper, statsWrapper].forEach(w => {
+      if (w) w.classList.add("hidden");
     });
 
-    tabFixture.addEventListener("click", () => {
-      vistaActiva = "fixture";
-      tabFixture.classList.add("active");
-      tabPosiciones.classList.remove("active");
-      fixtureWrapper.classList.remove("hidden");
-      tablaWrapper.classList.add("hidden");
+    if (vista === "posiciones") {
+      if (tabPosiciones) tabPosiciones.classList.add("active");
+      if (tablaWrapper) tablaWrapper.classList.remove("hidden");
+      if (seccionTitulo) seccionTitulo.innerText = "Clasificación General";
+    } else if (vista === "fixture") {
+      if (tabFixture) tabFixture.classList.add("active");
+      if (fixtureWrapper) fixtureWrapper.classList.remove("hidden");
       if (seccionTitulo) seccionTitulo.innerText = "Fixture y Resultados de la Temporada";
-    });
+    } else if (vista === "stats") {
+      if (tabStats) tabStats.classList.add("active");
+      if (statsWrapper) statsWrapper.classList.remove("hidden");
+      if (seccionTitulo) seccionTitulo.innerText = "Estadísticas: Líderes de Goleo y Asistencias";
+    }
   }
+
+  if (tabPosiciones) tabPosiciones.addEventListener("click", () => seleccionarPestaña("posiciones"));
+  if (tabFixture) tabFixture.addEventListener("click", () => seleccionarPestaña("fixture"));
+  if (tabStats) tabStats.addEventListener("click", () => seleccionarPestaña("stats"));
 
   // Listener para simular nueva liga / temporada
   if (btnNuevaTemporada) {
