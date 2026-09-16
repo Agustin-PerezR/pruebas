@@ -1,7 +1,7 @@
 {
   "apiUrl": "http://10.24.192.28:3000",
   "projectId": "PROJ-1789499229412",
-  "lastSyncAt": "2026-09-16T12:01:00.000Z",
+  "lastSyncAt": "2026-09-16T12:12:00.000Z",
   "mappings": [
     {
       "requirementId": "REQ-1789501307396",
@@ -22,6 +22,13 @@
       "sourceRef": "js/standings.js#calcularTablaPosiciones",
       "testIds": [
         "TEST-1789560097888"
+      ]
+    },
+    {
+      "requirementId": "REQ-1789501354292",
+      "sourceRef": "css/styles.css#responsive-design",
+      "testIds": [
+        "TEST-1789560697478"
       ]
     }
   ]
