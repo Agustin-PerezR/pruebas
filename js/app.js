@@ -63,6 +63,43 @@ document.addEventListener("DOMContentLoaded", () => {
         actualizarVistas();
       });
     }
+
+    // Delegación de eventos para botones de detalle de partido
+    document.querySelectorAll(".btn-ver-detalle, .partido-card").forEach(el => {
+      el.addEventListener("click", (e) => {
+        const matchId = el.getAttribute("data-match-id");
+        if (matchId) {
+          abrirModalPartido(matchId);
+        }
+      });
+    });
+  }
+
+  function abrirModalPartido(matchId) {
+    const modalContainer = document.getElementById("modal-container");
+    if (!modalContainer) return;
+
+    const detalle = obtenerDetallePartido(estadoLiga.partidos, matchId);
+    if (!detalle) return;
+
+    modalContainer.innerHTML = renderModalDetalleHTML(detalle);
+
+    const btnCerrar = document.getElementById("btn-cerrar-modal");
+    const backdrop = document.getElementById("modal-backdrop");
+
+    if (btnCerrar) {
+      btnCerrar.addEventListener("click", cerrarModal);
+    }
+    if (backdrop) {
+      backdrop.addEventListener("click", (e) => {
+        if (e.target === backdrop) cerrarModal();
+      });
+    }
+  }
+
+  function cerrarModal() {
+    const modalContainer = document.getElementById("modal-container");
+    if (modalContainer) modalContainer.innerHTML = "";
   }
 
   function inicializarTemporada() {
