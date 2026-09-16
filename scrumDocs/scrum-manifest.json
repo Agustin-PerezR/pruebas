@@ -1,13 +1,20 @@
 {
   "apiUrl": "http://10.24.192.28:3000",
   "projectId": "PROJ-1789499229412",
-  "lastSyncAt": "2026-09-16T11:41:00.000Z",
+  "lastSyncAt": "2026-09-16T11:54:00.000Z",
   "mappings": [
     {
       "requirementId": "REQ-1789501307396",
       "sourceRef": "js/data.js#generarEquiposYPlanteles",
       "testIds": [
         "TEST-1789502270359"
+      ]
+    },
+    {
+      "requirementId": "REQ-1789501323521",
+      "sourceRef": "js/simulator.js#simularTemporada",
+      "testIds": [
+        "TEST-1789559637432"
       ]
     }
   ]
